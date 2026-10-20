@@ -444,7 +444,7 @@ export default function Portfolio() {
           </div>
           <div className="nav-right">
             <a href="https://houtaroudes-myportfolio.vercel.app" className="version-btn" target="_blank" rel="noopener">
-              <PxIcon name="sparkle" size={10} color="var(--cyan)" /> Simple Portfolio
+              <PxIcon name="sparkle" size={10} color="var(--cyan)" /> Current portfolio
             </a>
             <motion.button
               className="theme-toggle-btn"
