@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bryan Sacueza | Portfolio</title>
     <meta name="description" content="Full-Stack Developer - building pixel-perfect worlds, one commit at a time" />
-    <!-- This is the pixel era of the portfolio, and the search result for the
-         name should be the one that is kept current. The canonical points at
-         the v2 site so the two pages stop competing for a single query; this
-         page stays online as a project, it just stops being the original. -->
-    <link rel="canonical" href="https://houtaroudes-myportfolio.vercel.app/" />
+    <!-- This is the pixel era of the portfolio: a project you can open, not the
+         page that should answer a search for the name. It used to defer to v2
+         with a canonical, and Bing showed this URL anyway, because a canonical
+         is a hint and a matching title is not. So the instruction is now the
+         direct one: stay out of the index. A page cannot ask to be left out and
+         hand its signals to another page at the same time, so the canonical is
+         gone and the noscript summary below carries the link to v2 instead. -->
+    <meta name="robots" content="noindex, follow" />
     <meta property="og:url" content="https://houtaroudes-game-portfolio.vercel.app/" />
     <meta property="og:title" content="Bryan Sacueza | Portfolio" />
     <meta property="og:type" content="website" />
@@ -19,6 +22,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   </head>
   <body>
+    <noscript>
+      <p>
+        Bryan Sacueza is a full-stack developer. The portfolio that is kept
+        current is
+        <a href="https://houtaroudes-myportfolio.vercel.app/">houtaroudes-myportfolio.vercel.app</a>.
+      </p>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
