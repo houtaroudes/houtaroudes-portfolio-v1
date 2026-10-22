@@ -64,8 +64,8 @@ Each icon is defined as a grid of pixel coordinates rendered as SVG `<rect>` ele
 
 ```bash
 # Clone the repo
-git clone https://github.com/houtaroudes/houtaroudes-portfolio.git
-cd houtaroudes-portfolio
+git clone https://github.com/houtaroudes/houtaroudes-portfolio-v1.git
+cd houtaroudes-portfolio-v1
 
 # Install dependencies
 npm install
@@ -146,8 +146,8 @@ This is my first full version of my personal developer portfolio - a single-page
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/houtaroudes/houtaroudes-portfolio.git
-cd houtaroudes-portfolio
+git clone https://github.com/houtaroudes/houtaroudes-portfolio-v1.git
+cd houtaroudes-portfolio-v1
 npm install
 ```
 
